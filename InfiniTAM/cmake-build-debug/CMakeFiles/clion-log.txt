@@ -1,0 +1,225 @@
+"I:\JetBrains\CLion\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" I:\InfiniTAM\InfiniTAM
+-- The C compiler identification is MSVC 19.25.28612.0
+-- The CXX compiler identification is MSVC 19.25.28612.0
+-- Check for working C compiler: I:/VisualStudio/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x64/cl.exe
+-- Check for working C compiler: I:/VisualStudio/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: I:/VisualStudio/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x64/cl.exe
+-- Check for working CXX compiler: I:/VisualStudio/VC/Tools/MSVC/14.25.28610/bin/Hostx86/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Warning (dev) at I:/JetBrains/CLion/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/FindCUDA.cmake:547 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "MSVC" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/UseCUDA.cmake:5 (FIND_PACKAGE)
+  Apps/InfiniTAM/CMakeLists.txt:15 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found OpenGL: opengl32   
+CMake Warning (dev) at I:/JetBrains/CLion/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/FindCUDA.cmake:547 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "MSVC" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/UseCUDA.cmake:5 (FIND_PACKAGE)
+  Apps/InfiniTAM_cli/CMakeLists.txt:15 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at I:/JetBrains/CLion/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/FindCUDA.cmake:547 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "MSVC" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/UseCUDA.cmake:5 (FIND_PACKAGE)
+  FernRelocLib/CMakeLists.txt:15 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at I:/JetBrains/CLion/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/FindCUDA.cmake:547 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "MSVC" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/UseCUDA.cmake:5 (FIND_PACKAGE)
+  InputSource/CMakeLists.txt:21 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at I:/JetBrains/CLion/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/FindCUDA.cmake:547 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "MSVC" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/UseCUDA.cmake:5 (FIND_PACKAGE)
+  ITMLib/CMakeLists.txt:15 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at I:/JetBrains/CLion/CLion 2019.3.5/bin/cmake/win/share/cmake-3.15/Modules/FindCUDA.cmake:547 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "MSVC" will no longer be dereferenced when the policy
+  is set to NEW.  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  cmake/UseCUDA.cmake:5 (FIND_PACKAGE)
+  ORUtils/CMakeLists.txt:15 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: I:/InfiniTAM/InfiniTAM/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file17398853875354550889 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file17398853875354550889=/TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\Apps\InfiniTAM
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file17398853875354550889 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file17398853875354550889=/TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\Apps\InfiniTAM_cli
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file3608009488695009327 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file3608009488695009327=/TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\FernRelocLib
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file12064969427434704758 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file12064969427434704758=/TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_Kinect2 -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\InputSource
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_Kinect2 -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -DCOMPILE_WITHOUT_CUDA -DCOMPILE_WITHOUT_Kinect2 -DCOMPILE_WITHOUT_OpenNI -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file3608009488695009327 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file3608009488695009327=/TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\ITMLib
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file16038529582828319473 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file16038529582828319473=/TP -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\MiniSlamGraphLib
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	
+	Compiler exited with error code 2: I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @C:\Users\Lenovo\AppData\Local\Temp\response-file3608009488695009327 C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151 | @response-file3608009488695009327=/TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.25.28612 版
+	版权所有(C) Microsoft Corporation。保留所有权利。
+	
+	all:
+		@cd I:\InfiniTAM\InfiniTAM\cmake-build-debug\ORUtils
+		@set INCLUDE=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\include;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\include;I:\Windows Kits\10\include\10.0.18362.0\ucrt;I:\Windows Kits\10\include\10.0.18362.0\shared;I:\Windows Kits\10\include\10.0.18362.0\um;I:\Windows Kits\10\include\10.0.18362.0\winrt;I:\Windows Kits\10\include\10.0.18362.0\cppwinrt
+		@set LIB=I:\VisualStudio\VC\Tools\MSVC\14.25.28610\ATLMFC\lib\x64;I:\VisualStudio\VC\Tools\MSVC\14.25.28610\lib\x64;I:\Windows Kits\10\lib\10.0.18362.0\ucrt\x64;I:\Windows Kits\10\lib\10.0.18362.0\um\x64;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		I:\VisualStudio\VC\Tools\MSVC\14.25.28610\bin\Hostx86\x64\cl.exe @<< C:\Users\Lenovo\AppData\Local\Temp\compiler-file15675026001995658151
+	/TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP<<
+	
+	cl /TP -DCOMPILE_WITHOUT_CUDA -fPIC -O3 -march=native -Wall -Wextra -Wno-unused-parameter -Wno-strict-aliasing /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Be /Bd /EP
+	cl: 命令行 error D8021 :无效的数值参数“/Wextra”
+	
+	

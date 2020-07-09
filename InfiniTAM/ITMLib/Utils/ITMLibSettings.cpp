@@ -8,7 +8,16 @@ using namespace ITMLib;
 
 ITMLibSettings::ITMLibSettings(void)
 //:	sceneParams(0.02f, 100, 0.005f, 0.2f, 3.0f, false),
-	:sceneParams(0.3f, 10, 0.015f, 0.1f, 3.0f, false),
+	:sceneParams(0.5f, 50, 0.005f, 0.1f, 10.0f, false),
+
+
+	// Good Setting 2
+	//:sceneParams(0.5f, 30, 0.01f, 0.1f, 200.0f, false),
+
+	// Good setting 1
+	//:sceneParams(0.5f, 50, 0.005f, 0.1f, 300.0f, false),
+
+	// From dynslam
 	//:sceneParams(0.75f, 50, 0.050f, 0.1f, 300.0f, false),
 
 	surfelSceneParams(0.5f, 0.6f, static_cast<float>(20 * M_PI / 180), 0.01f, 0.004f, 3.5f, 25.0f, 4, 1.0f, 5.0f, 20, 10000000, true, true)
@@ -49,9 +58,9 @@ ITMLibSettings::ITMLibSettings(void)
 	//libMode = LIBMODE_BASIC_SURFELS;
 
 	//// Default ICP tracking
-	trackerConfig = "type=icp,levels=rrrbb,minstep=1e-3,"
-					"outlierC=0.01,outlierF=0.002,"
-					"numiterC=10,numiterF=2,failureDec=5.0"; // 5 for normal, 20 for loop closure
+	//trackerConfig = "type=icp,levels=rrrbb,minstep=1e-3,"
+	//				"outlierC=0.01,outlierF=0.002,"
+	//				"numiterC=10,numiterF=2,failureDec=5.0"; // 5 for normal, 20 for loop closure
 
 	// Depth-only extended tracker:
 	//trackerConfig = "type=extended,levels=rrbb,useDepth=1,minstep=1e-4,"
@@ -62,12 +71,12 @@ ITMLibSettings::ITMLibSettings(void)
 	//trackerConfig = "type=file, mask=I:\\InfiniTAM\\InfiniTAM\\kitti\\pose3\\%04i.txt";
 
 	//// For hybrid intensity+depth tracking:
-	//trackerConfig = "type=extended,levels=bbb,useDepth=1,useColour=1,"
-	//				  "colourWeight=0.3,minstep=1e-4,"
-	//				  "outlierColourC=0.175,outlierColourF=0.005,"
-	//				  "outlierSpaceC=0.1,outlierSpaceF=0.004,"
-	//				  "numiterC=20,numiterF=50,tukeyCutOff=8,"
-	//				  "framesToSkip=20,framesToWeight=50,failureDec=20.0";
+	trackerConfig = "type=extended,levels=bbb,useDepth=1,useColour=1,"
+					  "colourWeight=0.3,minstep=1e-4,"
+					  "outlierColourC=0.175,outlierColourF=0.005,"
+					  "outlierSpaceC=0.1,outlierSpaceF=0.004,"
+					  "numiterC=20,numiterF=50,tukeyCutOff=8,"
+					  "framesToSkip=20,framesToWeight=50,failureDec=20.0";
 
 	// Colour only tracking, using rendered colours
 	//trackerConfig = "type=rgb,levels=rrbb";

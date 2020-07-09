@@ -40,16 +40,16 @@ _CPU_AND_GPU_CODE_ inline void convertDisparityToDepth(DEVICEPTR(float) *d_out, 
 
 
 	float scale_factor = 10000.0f;
-	float disparity_tmp = ((float)disparity / scale_factor) * 1241.0f;
+	float disparity_tmp = ((float)disparity / scale_factor) * disparityCalibParams.y;
 
 
 	//float disparity_tmp = (float)(disparity) / 256.0f;
 	float depth;
 
 	if (disparity_tmp == 0) depth = 0.0f;
-	else depth = 0.54 * 718 / disparity_tmp;
+	else depth = 0.54 * disparityCalibParams.x / disparity_tmp;
 
-	d_out[locId] = ((depth <= 0.0f) || (depth > 3.0f)) ? 0.0f : depth;
+	d_out[locId] = ((depth <= 0.0f) || (depth >= 3.0f)) ? 0.0f : depth;
 
 }
 

@@ -21,7 +21,7 @@ namespace ITMLib
 
 		bool requiresColourRendering() const { return false; }
 		bool requiresDepthReliability() const { return false; }
-		bool requiresPointCloudRendering() const { return false; }
+        bool requiresPointCloudRendering() const { return true; } // see in ITMTrackingController.h
 
 		explicit ITMFileBasedTracker(const std::string &poseMask, size_t initialFrameNo = 0);
 

@@ -4,6 +4,7 @@
 
 #include "../../../ORUtils/SE3Pose.h"
 #include "../Misc/ITMPointCloud.h"
+#include <iostream>
 
 namespace ITMLib
 {
@@ -64,7 +65,7 @@ namespace ITMLib
 			Vector3f diff3 = cameraCenter_pc - cameraCenter_live;
 
 			float diff = diff3.x * diff3.x + diff3.y * diff3.y + diff3.z * diff3.z;
-
+//            std::cout << diff <<std::endl;
 			// if the camera center has moved by more than a threshold
 			if (diff > 0.0005f) return true;
 

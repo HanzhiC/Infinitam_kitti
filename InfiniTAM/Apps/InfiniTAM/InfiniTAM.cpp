@@ -30,9 +30,9 @@ using namespace ITMLib;
 */
 static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSourceEngine* & imuSource, const char *arg1, const char *arg2, const char *arg3, const char *arg4)
 {
-	const char *calibFile = "i:\\infinitam\\infinitam\\kitti\\calib3.txt";
-    const char *filename1 = "i:\\infinitam\\infinitam\\kitti\\frames3\\%04i.ppm";
-    const char *filename2 = "i:\\infinitam\\infinitam\\kitti\\depth3\\%04i.pgm";
+	//const char *calibFile = "i:\\infinitam\\infinitam\\kitti\\calib6.txt";
+ //   const char *filename1 = "i:\\infinitam\\infinitam\\kitti\\frames6\\%04i.ppm";
+ //   const char *filename2 = "i:\\infinitam\\infinitam\\kitti\\depth6\\%04i.pgm";
 
     //const char *calibFile = "I:\\InfiniTAM\\InfiniTAM\\Teddy\\calib.txt ";
     //const char *filename1 = "I:\\InfiniTAM\\InfiniTAM\\Teddy\\Frames\\0004.ppm";
@@ -42,6 +42,9 @@ static void CreateDefaultImageSource(ImageSourceEngine* & imageSource, IMUSource
 	//const char* filename1 = "I:\\InfiniTAM\\InfiniTAM\\kitti\\frames2\\%04i.ppm";
 	//const char* filename2 = "I:\\InfiniTAM\\InfiniTAM\\kitti\\depth2\\%04i.pgm";
 
+	const char* calibFile = arg1;
+	const char* filename1 = arg2;
+	const char* filename2 = arg3;
 	const char *filename_imu = arg4;
 
 	if (strcmp(calibFile, "viewer") == 0)
